@@ -20,7 +20,7 @@ class Service {
       const response = await this.databases.createDocument(
         config.appwriteDatabaseId,
         config.appwriteCollectionId,
-        ID.unique(),
+        slug,
         { title, content, image, author, status }
       );
 
