@@ -63,7 +63,7 @@ function RichTextEditor({ name, label, control, defaultValue = "" }) {
               toolbar:
                 "undo redo | blocks | image | bold italic forecolor | alignleft aligncenter alignright | bullist numlist outdent indent | help",
             }}
-            onEditorChange={onchange}
+            onEditorChange={onChange}
           />
         )}
       />

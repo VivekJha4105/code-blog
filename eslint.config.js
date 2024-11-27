@@ -36,6 +36,7 @@ export default [
       "no-unused-vars": ["warn"],
       "react/prop-types": ["warn"],
       "no-undef": ["warn"],
+      "no-empty": false,
     },
   },
 ];
