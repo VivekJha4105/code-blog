@@ -10,7 +10,7 @@ import Login from "../Components/Login";
 import BlogCard from "./BlogCard";
 import ProtectedLayer from "./ProtectedLayer";
 import BlogForm from "./blog-form/BlogForm";
-import Container from "./Container/Container";
+import InputField from "./InputField";
 
 export {
     Header,
@@ -25,4 +25,5 @@ export {
     BlogCard,
     ProtectedLayer,
     BlogForm,
+    InputField,
 };

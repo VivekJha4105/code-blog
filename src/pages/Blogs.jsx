@@ -23,7 +23,7 @@ function Blogs() {
             <section>
                 <Container>
                     <h1 className="text-2xl md:text-3xl p-2 rounded-lg shadow-md font-semibold ">
-                        Loaind..
+                        Loading..
                     </h1>
                 </Container>
             </section>
@@ -36,7 +36,7 @@ function Blogs() {
                 <div className="flex flex-wrap gap-4">
                     {blogs.length
                         ? blogs.map((blog) => (
-                              <div className="w-1/4 p-2">
+                              <div key={blog?.$id} className="w-1/4 p-2">
                                   <BlogCard
                                       key={blog?.$id}
                                       title={blog?.title}
